@@ -7,3 +7,5 @@ Blue and purple-focused dark theme for various programs
 ![btop](images/btop.png)
 
 ![Zed](images/zed.png)
+
+![Bat](images/bat.png)
