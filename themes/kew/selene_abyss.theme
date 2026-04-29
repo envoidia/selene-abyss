@@ -1,0 +1,59 @@
+# ============================================
+# 2. Selene Abyss
+# ============================================
+[theme]
+name=Selene Abyss
+author=envoidia
+
+# Core colors
+accent=#72CFFE
+text=#CCCAC2
+textDim=#9A9A98
+textMuted=#9A9A98
+
+# General Colors
+logo=#72CFFE
+header=#72CFFE
+footer=#9A9A98
+help=#9A9A98
+link=#BB94DE
+nowplaying=#72CFFE
+
+# Playlist View
+playlist.rownum=#7B7D7F
+playlist.title=#CCCAC2
+playlist.playing=#72CFFE
+
+# Track View
+trackview.title=#CCCAC2
+trackview.artist=#9A9A98
+trackview.album=#BB94DE
+trackview.year=#7B7D7F
+trackview.time=#72CFFE
+trackview.visualizer=#9A9A98
+trackview.lyrics=#CCCAC2
+
+# Library View
+library.artist=#72CFFE
+library.album=#9A9A98
+library.track=#CCCAC2
+library.enqueued=#9A9A98
+library.playing=#72CFFE
+
+# Search
+search.label=#BB94DE
+search.query=#CCCAC2
+search.result=#CCCAC2
+search.enqueued=#9A9A98
+search.playing=#72CFFE
+
+# Progress
+progress.filled=#BB94DE
+progress.empty=#282E37
+progress.elapsed=#BB94DE
+
+# Status
+status.info=-1
+status.warning=#FECF72
+status.error=#FF899D
+status.success=#32BB99
