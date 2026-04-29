@@ -1,3 +1,3 @@
 [submodule "zed"]
-	path = zed
+	path = themes/zed
 	url = https://github.com/envoidia/zed-selene-abyss.git
