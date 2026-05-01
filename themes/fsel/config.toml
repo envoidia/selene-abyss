@@ -1,0 +1,21 @@
+### Incomplete fsel config with only colors
+
+# Highlight color for selected items and cursor
+highlight_color = "#bb94de"
+
+# Border colors for each panel
+main_border_color = "#66c8cc"      # Border color for the main info panel (top)
+apps_border_color = "#66c8cc"      # Border color for the apps list panel (middle)
+input_border_color = "#66c8cc"     # Border color for the input panel (bottom)
+
+# Text Colors (non-highlighted text in each panel)
+main_text_color = "#cccac2"        # Text color for the main info panel
+apps_text_color = "#cccac2"        # Text color for the apps list
+input_text_color = "#cccac2"       # Text color for the input field
+
+# Pin/Favorite Settings
+pin_color = "#32bb99"     # Color for pin icon (default: orange)
+pin_icon = "📌"                   # Icon for pinned apps (use Ctrl+Space to pin/unpin)
+
+# Panel title color
+header_title_color = "#66c8cc"

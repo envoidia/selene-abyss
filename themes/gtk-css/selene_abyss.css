@@ -1,0 +1,25 @@
+@define-color fg #cccac2;
+@define-color bg #161b29;
+@define-color bg-bright #172038;
+@define-color bg-brighter #253a5e;
+@define-color bg-selection #30485c;
+@define-color red #f7768e;
+@define-color red-bright #ff899d;
+@define-color yellow #dcdcaa;
+@define-color green #32bb99;
+@define-color green-bright #4fc1a5;
+@define-color lime #31d475;
+@define-color pink #d9a1d4;
+@define-color pink-bright #e9aee4;
+@define-color blue #6798ff;
+@define-color blue-bright #8db0ff;
+@define-color azure #4ab0e7;
+@define-color purple #a673d3;
+@define-color purple-bright #bb94de;
+@define-color purple-dark #402751;
+@define-color purple-pale #b5c0ff;
+@define-color cyan #66c8cc;
+@define-color cyan-bright #a4daff;
+@define-color white #b5c0ff;
+@define-color white-bright #c0caf5;
+
