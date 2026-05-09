@@ -10,6 +10,7 @@
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css");
 
 :root {
+    /* DiscordRecolor vars */
     --font: Koruri;
 
     --mentioncolor: 190, 143, 249;
@@ -36,6 +37,7 @@
 
     --settingsicons: 1;
 
+    /* custom vars bc the DiscordRecolor ones aren't actual colors for some reason */
     --white: #cccac2;
     --dark: #191f2b;
     --lighter: #262b34;
@@ -44,6 +46,7 @@
     --purple: #bb94de;
     --green: #32bb99;
     --red: #ff899d;
+    --pink: #e9aee4;
 }
 
 /*** home icon ***/
@@ -157,5 +160,5 @@ code, /* code in messages and reply previews */
 [data-text="envoidia♡"], /* messages */
 [data-text="@envoidia♡"], /* ping replies */
 [aria-label="envoidia♡ (direct message)"] /* dms */ {
-    color: #e9aee4 !important;
+    color: var(--pink) !important;
 }
