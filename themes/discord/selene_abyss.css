@@ -88,7 +88,7 @@
 /*** status indicators ***/
 [mask="url(#svg-mask-status-online)"],
 [mask="url(#svg-mask-status-online-mobile)"] {
-    fill: var(--successcolor);
+    fill: var(--green);
 }
 
 [mask="url(#svg-mask-status-idle)"] {
