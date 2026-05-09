@@ -112,6 +112,12 @@
     background-color: var(--dark);
 }
 
+/* attachment edit buttons */
+/* todo fix corner rounding */
+.button_f7ecac {
+    background-color: var(--dark);
+}
+
 /* links */
 [role="link"], /* normal link */
 .anchorUnderlineOnHover_edefb8 /* link in reply preview */ {
@@ -169,6 +175,7 @@ code, /* code in messages and reply previews */
 }
 
 /* my name */
+/* todo: can i color my name in the member list? */
 [data-text="envoidia♡"], /* messages */
 [data-text="@envoidia♡"], /* ping replies */
 [aria-label="envoidia♡ (direct message)"] /* dms */ {
