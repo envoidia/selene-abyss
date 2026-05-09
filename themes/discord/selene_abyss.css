@@ -39,8 +39,8 @@
 
     /* custom vars bc the DiscordRecolor ones aren't actual colors for some reason */
     --white: #cccac2;
-    --dark: #191f2b;
-    --lighter: #262b34;
+    --darker: #191f2b;
+    --dark: #262b34;
     --accent: #24556f;
     --accent-dark: #253a5e;
     --purple: #bb94de;
@@ -75,7 +75,7 @@
 
 /* pill on right */
 .unreadPill__908e2 {
-    color: var(--dark);
+    color: var(--darker);
     background-color: var(--purple);
 }
 
@@ -107,7 +107,7 @@
 /* status bubble */
 .inner_ab8609, /* area with status */
 .outer_ab8609 /* thought circles */ {
-    background-color: var(--lighter);
+    background-color: var(--dark);
 }
 
 /* links */
@@ -121,7 +121,7 @@ code, /* code in messages and reply previews */
 .inlineCode_ada32f, /* code in textbox */
 .codeLine_ada32f,  /* multiline code in textbox */
 .before_inlineCode_ada32f, .after_inlineCode_ada32f /* ` around code in textbox */ {
-    background-color: var(--dark) !important;
+    background-color: var(--darker) !important;
     font-family: Lilex;
     font-feature-settings:
         "ss01" on,
@@ -136,7 +136,7 @@ code, /* code in messages and reply previews */
 
 /* mention badge */
 .numberBadge__2b1f5 {
-    color: var(--dark);
+    color: var(--darker);
     background-color: var(--purple) !important;
 }
 
@@ -154,6 +154,11 @@ code, /* code in messages and reply previews */
 /* unread pin indicator */
 .iconBadgeBottom__9293f {
     background-color: var(--purple);
+}
+
+/* active now section header */
+.headerFull__00943 {
+    background-color: var(--dark) !important;
 }
 
 /* my name */
