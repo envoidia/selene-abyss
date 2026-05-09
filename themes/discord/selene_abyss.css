@@ -156,6 +156,11 @@ code, /* code in messages and reply previews */
     background-color: var(--purple);
 }
 
+/* now playing game/music icon */
+.icon_c9d15c path {
+    fill: var(--green);
+}
+
 /* active now section header */
 .headerFull__00943 {
     background-color: var(--dark) !important;
