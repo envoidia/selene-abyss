@@ -46,6 +46,7 @@
     --purple: #bb94de;
     --green: #32bb99;
     --red: #ff899d;
+    --red-trans: #ff899d30;
     --pink: #e9aee4;
 }
 
@@ -103,6 +104,23 @@
 
 [mask="url(#svg-mask-status-offline)"] {
     fill: var(--accent-dark);
+}
+
+/*** muted/deafened icons ***/
+/* todo: fix increased thickness */
+/* background */
+.redGlow__67645 {
+    background-color: var(--red-trans) !important;
+}
+
+/* main icons */
+.redGlow__67645 svg path {
+    fill: var(--red) !important;
+}
+
+/* / crossout and u-shaped bit of microphone */
+.redGlow__67645 .lottieIcon__5eb9b svg path {
+    stroke: var(--red) !important;
 }
 
 /*** misc ***/
