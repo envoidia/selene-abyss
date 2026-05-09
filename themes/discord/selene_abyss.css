@@ -192,6 +192,11 @@ code, /* code in messages and reply previews */
     background-color: var(--dark) !important;
 }
 
+/* server/group owner crown */
+.ownerIcon__5d473 {
+    color: var(--pink);
+}
+
 /* my name */
 /* todo: can i color my name in the member list? */
 [data-text="envoidia♡"], /* messages */
