@@ -85,7 +85,7 @@
 /*** status indicators ***/
 [mask="url(#svg-mask-status-online)"],
 [mask="url(#svg-mask-status-online-mobile)"] {
-    fill: var(--green);
+    fill: var(--successcolor);
 }
 
 [mask="url(#svg-mask-status-idle)"] {
@@ -126,6 +126,11 @@ code, /* code in messages and reply previews */
         "cv11" on;
 }
 
+/* mention */
+.mention {
+    color: var(--white) !important;
+}
+
 /* mention badge */
 .numberBadge__2b1f5 {
     color: var(--dark);
@@ -146,4 +151,11 @@ code, /* code in messages and reply previews */
 /* unread pin indicator */
 .iconBadgeBottom__9293f {
     background-color: var(--purple);
+}
+
+/* my name */
+[data-text="envoidia♡"], /* messages */
+[data-text="@envoidia♡"], /* ping replies */
+[aria-label="envoidia♡ (direct message)"] /* dms */ {
+    color: #e9aee4 !important;
 }
