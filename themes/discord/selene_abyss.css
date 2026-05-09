@@ -87,7 +87,7 @@
 
 /*** status indicators ***/
 /* todo: fix showing the default status colors when they change until they're re-rendered
-    every theme i've ever seen has done this, so it may be hard to fix */
+    every theme i've ever seen has had this problem, so it may be hard to fix */
 [mask="url(#svg-mask-status-online)"],
 [mask="url(#svg-mask-status-online-mobile)"] {
     fill: var(--green);
