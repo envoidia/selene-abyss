@@ -1,0 +1,149 @@
+/**
+ * @name Selene Abyss
+ * @author mwittrien && envoidia
+ * @version 0.2.0
+ * @description A blue and purple-focused dark theme. Requires Koruri and Lilex installed
+ * @source https://github.com/envoidia/selene-abyss
+ * @website https://envoidia.neocities.org
+ */
+
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css");
+
+:root {
+    --font: Koruri;
+
+    --mentioncolor: 190, 143, 249;
+    --successcolor: 50, 187, 153;
+    --warningcolor: 254, 207, 114;
+    --dangercolor: 247, 118, 142;
+    --accentcolor: 36, 85, 111;
+    --accentcolor2: 187, 148, 222;
+    --linkcolor: 0, 176, 244;
+
+    --textbrightest: 204, 202, 194;
+    --textbrighter: 204, 202, 194;
+    --textbright: 154, 154, 152;
+    --textdark: 123, 125, 127;
+    --textdarker: 100, 100, 110;
+    --textdarkest: 100, 100, 110;
+
+    --backgroundaccent: 36, 85, 111;
+    --backgroundprimary: 25, 31, 43;
+    --backgroundsecondary: 15, 20, 36;
+    --backgroundsecondaryalt: 21, 24, 42;
+    --backgroundtertiary: 15, 20, 36;
+    --backgroundfloating: 38, 43, 52;
+
+    --settingsicons: 1;
+
+    --white: #cccac2;
+    --dark: #191f2b;
+    --lighter: #262b34;
+    --accent: #24556f;
+    --accent-dark: #253a5e;
+    --purple: #bb94de;
+    --green: #32bb99;
+    --red: #ff899d;
+}
+
+/*** home icon ***/
+/* not is to avoid messing up default server icons */
+.childWrapper__6e9f8:not(.acronym__6e9f8) {
+    background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gQ3JlYXRlZCB3aXRoIElua3NjYXBlIChodHRwOi8vd3d3Lmlua3NjYXBlLm9yZy8pIC0tPgoKPHN2ZwogICB2ZXJzaW9uPSIxLjEiCiAgIGlkPSJzdmcxIgogICB3aWR0aD0iNy42NjgwMDAyIgogICBoZWlnaHQ9IjcuNjY4MDAwMiIKICAgdmlld0JveD0iMCAwIDcuNjY4MDAwMiA3LjY2ODAwMDIiCiAgIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIgogICB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxkZWZzCiAgICAgaWQ9ImRlZnMxIiAvPgogIDxnCiAgICAgaWQ9ImcxIj4KICAgIDxpbWFnZQogICAgICAgd2lkdGg9IjUuNjY3ODk2NyIKICAgICAgIGhlaWdodD0iNS42Njc4OTY3IgogICAgICAgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSIKICAgICAgIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBREFBQUFBd0NBWUFBQUJYQXZtSEFBQUFBWE5TUjBJQjJja3Nmd0FBQUFSblFVMUJBQUN4JiMxMDtqd3Y4WVFVQUFBQWdZMGhTVFFBQWVpWUFBSUNFQUFENkFBQUFnT2dBQUhVd0FBRHFZQUFBT3BnQUFCZHduTHBSUEFBQUFBbHdTRmx6JiMxMDtBQUI4L3dBQWZQOEI2NlpyY1FBQUFBZDBTVTFGQitrTEJSVTVNZmdtemRJQUFBSERTVVJCVkdqZTVabTlTZ05CRkViUEZTUCtGSFlLJiMxMDtnaitOUVN1eHNMY1N0ZkVkZkFxTFBJTGdDL2dxTnJHVU5IYmFDV3BJcFpVaVNENkxiQkVsbTJSM1ozWm1jS29OSkpmdnpGM21udXhDJiMxMDs0c3VxRnBCMERHd0V5dDkxQWJBSnRBTkFkSUZEYzFGcEJFUVBlSFljZUFWWS94WGU3TkZaZFVtYmtwNDBXRytTRGh6VzNwYjBrdFYrJiMxMDtsZFQwMGxNZkVMV0Y5d0ZSZTNpWEVNSEN1NEFJSHI0S1JEVGh5MEJFRjc0SVJMVGhwNEdJUHZ3NGlHVENqNEZJSjN3T1JLWHdNNEVZJiMxMDs1b0Rab2M4THdISXF1Ly8zbnZjaWdIV0ZiL3EwV08vaDYxRHgybncrV29naTUzd1pDTXNwTkF1Y09QalRQdzljQVd0QUg3Z0FIaWI4JiMxMDtaZ3U0QkJyQU8zQmtabmRsZHU1Y1VsL2gxOWhPMkNRSTRIcm9lNS9aVGs1enpqZXk2Mi9ncTJJbjM0RlRNN3V2Mm9tMnBNV2tmTDRJJiMxMDtSTlJpTmdraUNhdk1nMGhLaVVkQTdDV254RGxIYkRvK24wRzAvZ0RzcHhSKytKN1h0RWRzckc3VEtqSW5vaFN6b3NNdVNxdU1HbUxhJiMxMDtjejVLaUtKREtpcUlzaE0yQ29pcWVoQVV3cFhiQklGd0xXYTFRdml5eWxvZ2ZDdXhMd2pMaXU4QU45blRBeGk4cE81NWFQSU9zSlJkJiMxMDszd0xIWnZaUmRXZDJKWFVEUFhHbzNBbVRkQWFzQnB5VkhUUHI4Ri9YRDZ5Z0R4TmsyZ1FuQUFBQUFFbEZUa1N1UW1DQyYjMTA7IgogICAgICAgaWQ9ImltYWdlMSIKICAgICAgIHg9IjEuMDAwMDUxNyIKICAgICAgIHk9IjEuMDAwMDUxNyIgLz4KICA8L2c+Cjwvc3ZnPgo=");
+    background-repeat: no-repeat;
+    background-size: 40px;
+}
+
+/* hide default home icon */
+.childWrapper__6e9f8 svg {
+    display: none;
+}
+
+/*** new messages bar  ***/
+/* date in center */
+.content__908e2 {
+    color: var(--purple) !important;
+}
+
+/* red line */
+.divider__5126c.isUnread__908e2 {
+    border-color: var(--purple);
+}
+
+/* pill on right */
+.unreadPill__908e2 {
+    color: var(--dark);
+    background-color: var(--purple);
+}
+
+/* pointy cap of pill */
+.unreadPillCapStroke__908e2 {
+    stroke: var(--purple);
+    fill: var(--purple);
+}
+
+/*** status indicators ***/
+[mask="url(#svg-mask-status-online)"],
+[mask="url(#svg-mask-status-online-mobile)"] {
+    fill: var(--green);
+}
+
+[mask="url(#svg-mask-status-idle)"] {
+    fill: var(--purple);
+}
+
+[mask="url(#svg-mask-status-dnd)"] {
+    fill: var(--red);
+}
+
+[mask="url(#svg-mask-status-offline)"] {
+    fill: var(--accent-dark);
+}
+
+/*** misc ***/
+/* status bubble */
+.inner_ab8609, /* area with status */
+.outer_ab8609 /* thought circles */ {
+    background-color: var(--lighter);
+}
+
+/* links */
+[role="link"], /* normal link */
+.anchorUnderlineOnHover_edefb8 /* link in reply preview */ {
+    color: var(--purple) !important;
+}
+
+/* code blocks */
+code, /* code in messages and reply previews */
+.inlineCode_ada32f, /* code in textbox */
+.codeLine_ada32f,  /* multiline code in textbox */
+.before_inlineCode_ada32f, .after_inlineCode_ada32f /* ` around code in textbox */ {
+    background-color: var(--dark) !important;
+    font-family: Lilex;
+    font-feature-settings:
+        "ss01" on,
+        "cv08" on,
+        "cv11" on;
+}
+
+/* mention badge */
+.numberBadge__2b1f5 {
+    color: var(--dark);
+    background-color: var(--purple) !important;
+}
+
+/* selected channel highlight */
+.selectedChannel_c69b6d {
+    background-color: var(--accent) !important;
+    border-radius: 8px;
+}
+
+/* selected dm highlight */
+.selected_bf202d {
+    background-color: var(--accent) !important;
+}
+
+/* unread pin indicator */
+.iconBadgeBottom__9293f {
+    background-color: var(--purple);
+}
