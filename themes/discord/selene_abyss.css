@@ -183,13 +183,13 @@ code, /* code in messages and reply previews */
     background-color: var(--purple);
 }
 
-/* now playing game/music icon */
+/* now playing game/music and in call icons */
 .icon_c9d15c path {
     fill: var(--green);
 }
 
-/* active now section header */
-.headerFull__00943 {
+.headerFull__00943, /* active now section header */
+.popoutContainer__0f481 /* emoji click popup */ {
     background-color: var(--dark) !important;
 }
 
