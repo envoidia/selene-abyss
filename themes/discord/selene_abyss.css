@@ -139,7 +139,8 @@
 
 /* links */
 [role="link"], /* normal link */
-.anchorUnderlineOnHover_edefb8 /* link in reply preview */ {
+.anchorUnderlineOnHover_edefb8, /* link in reply preview */
+.fakeLink_ada32f /* link in textbox preview */ {
     color: var(--purple) !important;
 }
 
