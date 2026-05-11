@@ -189,9 +189,10 @@ code, /* code in messages and reply previews */
     fill: var(--green);
 }
 
-.headerFull__00943, /* active now section header */
+.header__00943, /* active now section header */
 .popoutContainer__0f481, /* emoji click popup */
-.container_dca174 /* tag click popup */ {
+.container_dca174, /* tag click popup */
+.jumpToPresentBar__0f481 /* "you're viewing older messages" bar */ {
     background-color: var(--dark) !important;
 }
 
@@ -213,3 +214,5 @@ code, /* code in messages and reply previews */
 [aria-label="envoidia♡ (direct message)"] /* dms */ {
     color: var(--pink) !important;
 }
+
+/* todo: selected message outline color */
