@@ -192,7 +192,9 @@ code, /* code in messages and reply previews */
 .header__00943, /* active now section header */
 .popoutContainer__0f481, /* emoji click popup */
 .container_dca174, /* tag click popup */
-.jumpToPresentBar__0f481 /* "you're viewing older messages" bar */ {
+.jumpToPresentBar__0f481, /* "you're viewing older messages" bar */
+.actionButtons_cc1819, /* zoom/forward/open in browser/more buttons when viewing image */
+.buttonInner_aec7ab /* close/left/right buttons when viewing image */ {
     background-color: var(--dark) !important;
 }
 
