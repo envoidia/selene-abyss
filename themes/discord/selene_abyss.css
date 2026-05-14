@@ -195,7 +195,8 @@ code, /* code in messages and reply previews */
 .jumpToPresentBar__0f481, /* "you're viewing older messages" bar */
 .actionButtons_cc1819, /* zoom/forward/open in browser/more buttons when viewing image */
 .buttonInner_aec7ab, /* close/left/right buttons when viewing image */
-.button__201d5 /* button under app integrations (like the play wordle button) */ {
+.button__201d5, /* button under app integrations (like the play wordle button) */
+.obscured /* spoilers */ {
     background-color: var(--dark) !important;
 }
 
