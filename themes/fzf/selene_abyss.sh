@@ -1,1 +1,1 @@
-export FZF_DEFAULT_OPTS='--height 80% --layout=reverse --border --color=fg:#CCCAC2,fg+:#CCCAC2,bg:#0f1424,bg+:#0f1424,hl:#BB94DE,hl+:#BB94DE,info:#4AB0E7,marker:#32BB99,prompt:#E9AEE4,spinner:#BB94DE,pointer:#BB94DE,header:#B5C0FF,border:#66C8CC,label:#CCCAC2,query:#CCCAC2'
+export FZF_DEFAULT_OPTS='--height 80% --layout=reverse --border --color=fg:#CCCAC2,fg+:#CCCAC2,bg:#161b29,bg+:#161b29,hl:#BB94DE,hl+:#BB94DE,info:#4AB0E7,marker:#32BB99,prompt:#E9AEE4,spinner:#BB94DE,pointer:#BB94DE,header:#B5C0FF,border:#66C8CC,label:#CCCAC2,query:#CCCAC2'

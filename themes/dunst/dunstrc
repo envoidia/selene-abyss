@@ -3,14 +3,14 @@
 [urgency_low]
 frame_color = "#66c8cc"
 foreground = "#cccac2"
-background = "#0f1424"
+background = "#161b29"
 
 [urgency_normal]
 frame_color = "#66c8cc"
 foreground = "#cccac2"
-background = "#0f1424"
+background = "#161b29"
 
 [urgency_critical]
 frame_color = "#a673d3"
 foreground = "#cccac2"
-background = "#0f1424"
+background = "#161b29"
