@@ -18,7 +18,7 @@
         <key>settings</key>
         <dict>
           <key>background</key>
-          <string>#161b29</string>
+          <string>#0f1424</string>
           <key>foreground</key>
           <string>#cccac2</string>
           <key>caret</key>
@@ -30,7 +30,7 @@
           <key>findHighlight</key>
           <string>#73cFFe66</string>
           <key>findHighlightForeground</key>
-          <string>#161b29</string>
+          <string>#0f1424</string>
           <key>gutterForeground</key>
           <string>#575c6b</string>
           <key>invisibles</key>

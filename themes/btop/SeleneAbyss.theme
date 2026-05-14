@@ -1,5 +1,5 @@
 # Main background, empty for terminal default, need to be empty if you want transparent background
-theme[main_bg]="#161b29"
+theme[main_bg]="#0f1424"
 # Main text color
 theme[main_fg]="#ffffff"
 # Title color for boxes
