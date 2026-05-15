@@ -8,7 +8,7 @@ foreground = '#cccac2'
 
 # Cursor colors
 [colors.cursor]
-cursor = '#73bed3'
+cursor = '#66c8cc'
 text = '#cccac2'
 
 # Normal colors

@@ -3,7 +3,7 @@
 # description: A blue and purple-focused dark theme
 
 [colors-dark]
-cursor =  73bed3 cccac2
+cursor =  66c8cc cccac2
 foreground = cccac2
 background = 161b29
 

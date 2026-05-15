@@ -22,7 +22,7 @@
           <key>foreground</key>
           <string>#cccac2</string>
           <key>caret</key>
-          <string>#73BED3</string>
+          <string>#66c8cc</string>
           <key>lineHighlight</key>
           <string>#212738BF</string>
           <key>selection</key>

@@ -27,9 +27,9 @@ background = "#161b29"
 selection_bg = "#30485c"
 selection_fg = "#cccac2"
 
-cursor_bg = "#73bed3"
-cursor_border = "#73bed3"
-cursor_fg = "#73bed3"
+cursor_bg = "#66c8cc"
+cursor_border = "#66c8cc"
+cursor_fg = "#66c8cc"
 
 [metadata]
 author = "envoidia (http://github.com/envoidia)"
