@@ -2,7 +2,6 @@
 @define-color bg #161b29;
 @define-color bg-bright #172038;
 @define-color bg-brighter #253a5e;
-@define-color bg-selection #30485c;
 @define-color red #f7768e;
 @define-color red-bright #ff899d;
 @define-color yellow #dcdcaa;
@@ -22,4 +21,3 @@
 @define-color cyan-bright #a4daff;
 @define-color white #b5c0ff;
 @define-color white-bright #c0caf5;
-

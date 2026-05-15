@@ -35,5 +35,5 @@ yellow = '#efbceb'
 
 # Selection colors
 [colors.selection]
-background = '#30485c'
+background = '#253a5e'
 text = '#cccac2'
