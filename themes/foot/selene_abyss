@@ -1,0 +1,26 @@
+# -*- conf -*-
+# theme: Selene Abyss
+# description: A blue and purple-focused dark theme
+
+[colors-dark]
+cursor =  73bed3 cccac2
+foreground = cccac2
+background = 161b29
+
+regular0 = 161b29 # black
+regular1 = f7768e # red
+regular2 = 32bb99 # green
+regular3 = e9aee4 # yellow
+regular4 = 6798ff # blue
+regular5 = a673d3 # magenta
+regular6 = 66c8cc # cyan
+regular7 = b5c0ff # white
+
+bright0 = 253a5e # bright black
+bright1 = ff899d # bright red
+bright2 = 4fc1a5 # bright green
+bright3 = efbceb # bright yellow
+bright4 = 8db0ff # bright blue
+bright5 = bb94de # bright magenta
+bright6 = a4daff # bright cyan
+bright7 = c0caf5 # bright white

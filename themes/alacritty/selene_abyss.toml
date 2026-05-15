@@ -1,0 +1,39 @@
+# Selene Abyss
+# Source https//github.com/envoidia/selene-abyss/blob/master/themes/alacritty/selene_abyss.toml
+
+# Default colors
+[colors.primary]
+background = '#161b29'
+foreground = '#cccac2'
+
+# Cursor colors
+[colors.cursor]
+cursor = '#73bed3'
+text = '#cccac2'
+
+# Normal colors
+[colors.normal]
+black = '#161b29'
+blue = '#6798ff'
+cyan = '#66c8cc'
+green = '#32bb99'
+magenta = '#a673d3'
+red = '#f7768e'
+white = '#b5c0ff'
+yellow = '#e9aee4'
+
+# Bright colors
+[colors.bright]
+black = '#253a5e'
+blue = '#8db0ff'
+cyan = '#a4daff'
+green = '#4fc1a5'
+magenta = '#bb94de'
+red = '#ff899d'
+white = '#c0caf5'
+yellow = '#efbceb'
+
+# Selection colors
+[colors.selection]
+background = '#30485c'
+text = '#cccac2'

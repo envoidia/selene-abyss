@@ -1,0 +1,38 @@
+[colors]
+ansi = [
+    "#161b29",
+    "#f7768e",
+    "#32bb99",
+    "#e9aee4",
+    "#6798ff",
+    "#a673d3",
+    "#66c8cc",
+    "#b5c0ff",
+]
+
+brights = [
+    "#253a5e",
+    "#ff899d",
+    "#4fc1a5",
+    "#efbceb",
+    "#8db0ff",
+    "#bb94de",
+    "#a4daff",
+    "#c0caf5",
+]
+
+foreground = "#cccac2"
+background = "#161b29"
+
+selection_bg = "#30485c"
+selection_fg = "#cccac2"
+
+cursor_bg = "#73bed3"
+cursor_border = "#73bed3"
+cursor_fg = "#73bed3"
+
+[metadata]
+author = "envoidia (http://github.com/envoidia)"
+name = "Selene Abyss"
+origin_url = "https://github.com/envoidia/selene-abyss"
+wezterm_version = "20220807-113146-c2fee766"
