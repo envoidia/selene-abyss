@@ -28,7 +28,7 @@
     --textdarker: 100, 100, 110;
     --textdarkest: 100, 100, 110;
 
-    --backgroundaccent: 36, 85, 111;
+    --backgroundaccent: 37, 58, 94;
     --backgroundprimary: 25, 31, 43;
     --backgroundsecondary: 22, 27, 41;
     --backgroundsecondaryalt: 21, 24, 42;
@@ -137,10 +137,10 @@
     background-color: var(--dark);
 }
 
-/* links */
 [role="link"], /* normal link */
 .anchorUnderlineOnHover_edefb8, /* link in reply preview */
-.fakeLink_ada32f /* link in textbox preview */ {
+.fakeLink_ada32f, /* link in textbox preview */
+.createThreadButton__841c8 /* create thread button when chaining replies */ {
     color: var(--purple) !important;
 }
 
@@ -209,6 +209,11 @@ code, /* code in messages and reply previews */
 .slateTextArea_ec4baf, /* main textbox */
 .searchBar_c322aa /* search bar */ {
     caret-color: var(--cursor) !important;
+}
+
+/* selected text */
+::selection {
+    background-color: var(--accent-dark);
 }
 
 /* my name */
