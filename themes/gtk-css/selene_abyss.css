@@ -1,7 +1,9 @@
 @define-color fg #cccac2;
+@define-color muted #9a9a98;
 @define-color bg #161b29;
 @define-color bg-bright #172038;
 @define-color bg-brighter #253a5e;
+@define-color accent #24556f;
 @define-color red #f7768e;
 @define-color red-bright #ff899d;
 @define-color yellow #dcdcaa;

@@ -19,7 +19,7 @@
     --dangercolor: 247, 118, 142;
     --accentcolor: 36, 85, 111;
     --accentcolor2: 187, 148, 222;
-    --linkcolor: 0, 176, 244;
+    --linkcolor: 187, 148, 222;
 
     --textbrightest: 204, 202, 194;
     --textbrighter: 204, 202, 194;
@@ -39,8 +39,8 @@
 
     /* custom vars bc the DiscordRecolor ones aren't actual colors for some reason */
     --white: #cccac2;
-    --darker: #191f2b;
     --dark: #262b34;
+    --darker: #191f2b;
     --accent: #24556f;
     --accent-dark: #253a5e;
     --purple: #bb94de;
@@ -135,13 +135,6 @@
 /* todo fix corner rounding */
 .button_f7ecac {
     background-color: var(--dark);
-}
-
-[role="link"], /* normal link */
-.anchorUnderlineOnHover_edefb8, /* link in reply preview */
-.fakeLink_ada32f, /* link in textbox preview */
-.createThreadButton__841c8 /* create thread button when chaining replies */ {
-    color: var(--purple) !important;
 }
 
 /* code blocks */
