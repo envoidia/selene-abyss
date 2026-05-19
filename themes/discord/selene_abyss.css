@@ -217,5 +217,3 @@ code, /* code in messages and reply previews */
 [aria-label="envoidia♡ (direct message)"] /* dms */ {
     color: var(--pink) !important;
 }
-
-/* todo: selected message outline color */
