@@ -201,7 +201,8 @@ code, /* code in messages and reply previews */
 
 /* cursor color */
 .slateTextArea_ec4baf, /* main textbox */
-.searchBar_c322aa /* search bar */ {
+.searchBar_c322aa, /* search bar */
+.input_ac6cb0 /* quick switcher search bar */ {
     caret-color: var(--cursor) !important;
 }
 
