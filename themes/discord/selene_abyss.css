@@ -143,7 +143,7 @@ code, /* code in messages and reply previews */
 .codeLine_ada32f,  /* multiline code in textbox */
 .before_inlineCode_ada32f, .after_inlineCode_ada32f /* ` around code in textbox */ {
     background-color: var(--darker) !important;
-    font-family: Lilex;
+    font-family: Lilex !important;
     font-feature-settings:
         "ss01" on,
         "cv08" on,
